@@ -71,6 +71,7 @@ app.delete('/delete-data/:id', async (req, res)=>{
         res.status(500).json({message:'internal server error'});
     }
 });
+//https://github.com/sultan-ws/sem-6
 
 app.listen(4800, ()=>{
     console.log('server is running on port 4800');
